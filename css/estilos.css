@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#contacto, #inicio {  /*alt+35=#*/
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+   
+}
+h1 {
+    color: #E20000;
+}
+p{
+    color: #6a6a6a;
+}
+.btn {
+    color: #370a6d;
+    background-color: white;
+    border: 0px;
+    border-radius: 15px;
+}
+.btn:hover{
+    color: white;
+    background-color: #370a6d;
+ }
+ /*main{
+    min-height: 530px;
+ }*/
+
+nav .active{
+    border: 1px solid #E20000;
+    border-radius: 20px;
+}
+nav a{
+    color: #6a6a6a;
+}
+#contacto footer,#contacto footer a, #inicio footer,#inicio footer a{
+    color: white;
+    font-weight: 120px;
+}
+
+#contacto footer .fa-github, #inicio footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: o 8px;
+}
+
+#contacto footer .fa-whatsapp, #inicio footer .fa-whatsapp{
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+}
+
+#contacto footer a, #inicio footer a{
+    text-decoration: none;
+}
+
+.cv {
+    background-color: #E20000;
+    border-radius: 15px;
+    font-weight: 100px;
+    padding: 7px  7px;
+} 
+.cv:hover{
+    background-color: #370a6d;
+}
+.cv a{
+    color: white;
+    text-decoration: none;
+}
+div a:hover{
+    color: white;
+}
+
+
+/*PROYECTOS*/
+#proyectos{
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: cover;
+}
+.proyecto{
+    background-color: white;
+}
+.proyecto h2{
+    font-size: 16px;
+    background: rgb(190,7,7);
+    background: linear-gradient(90deg, rgba(190,7,7,1) 34%, rgba(255,0,22,1) 62%);
+    color: white;
+    padding: 16px;
+}
+.proyecto img{
+    height: 212px;
+}
+.proyecto p{
+    font-size: 14px;
+    height: 130px;
+}
+.btn-rojo {
+    color: white;
+    background-color: #E20000;
+    border: 0px;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.btn-rojo:hover{
+    background-color: #370a6d;
+ }
+ .link-rojo{
+    color: #E20000;
+    text-decoration: none;
+ }
+ .link-rojo:hover{
+    color: #E20000;
+ }
+ #proyectos footer,#proyectos footer a{
+    color: #E20000;
+    font-weight: 120px;
+    text-decoration: none;
+}
+ #proyectos footer .fa-github{
+    font-size: 30px;
+    color: #E20000;
+}
+#proyectos footer .fa-linkedin-in{
+    color: #E20000;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: o 8px;
+}
+
+#proyectos footer .fa-whatsapp{
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+}
+
+/**INICIO**/
+#inicio img{
+    height: 400px;
+}
+#inicio img:hover{
+    height: 410px;
+}
+.cohete{
+    height: 410px;
+}
+#inicio p{
+    color: white;
+    font-size: 17px;
+    border: 1px white solid;
+    border-radius: 15px;
+    font-weight: 600;
+}
+/*SOBRE MI*/
+.foto-perfil{
+    border-radius: 600px;
+    height: 300px;
+}
+
+
+
+
+@media (max-width: 750px) {
+    #contacto, #inicio {
+        background-image: url(../images/fondo-proyectos.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #proyectos{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #inicio p{
+        color: #E20000;
+        font-size: 16px;
+        border: 1px #E20000 solid;
+    }
+
+
+}
