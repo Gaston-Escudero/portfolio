@@ -192,8 +192,57 @@ div a:hover{
 }
 #stack-tecnologico{
     background: linear-gradient(90deg, rgba(190,7,7,1) 34%, rgba(255,0,22,1) 62%);;
+
+}
+#stack-tecnologico h2{
+    font-size: 24px;
+    color: white;
+}
+#stack-tecnologico h3{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+}
+#stack-tecnologico .tecnologia{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 182px;
+}
+#stack-tecnologico .tecnologia img{
+    height: 60px;
+}
+#experiencia h2{
+    font-size: 24px;
+    color:#370a6d;
+    font-weight: 400;
+}
+#experiencia h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#experiencia h4{
+    font-size: 17px;
+    color:#370a6d;
+}
+#experiencia h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+.gris {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
+.gris:hover {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}    
+
+/*50.16*/
 
 
 
@@ -212,6 +261,6 @@ div a:hover{
         font-size: 16px;
         border: 1px #E20000 solid;
     }
-
-
+        
 }
+
