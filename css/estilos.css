@@ -288,13 +288,13 @@ div a:hover{
     color: #6A6A6A;
     font-size: 14px;
 }
-#sobre-mi .card{
+#sobre-mi .carta{
     height: 182px;
 }
-#idiomas .card-idioma{
+#idiomas .carta-idioma{
     border-radius: 15px;
 }
-#idiomas .card{
+#idiomas .carta{
     background-color: #370A6D;
     border-radius: 15px;
     padding: 40px 0;
