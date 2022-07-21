@@ -1,3 +1,7 @@
+<?php 
+    $pg ="sobre-mi";
+?>
+
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -16,36 +20,7 @@
 
 <body id="sobre-mi" class="d-flex flex-column h-100">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4py-1 active" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="cv">
-                        <a href="">Descargar mi CV  
-                        <i class="fa-solid fa-download"></i>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </nav>
+        <?php include_once("menu.php"); ?>
     </header>
     <main>
         <section class="container" id="descripcion">
@@ -54,7 +29,7 @@
                     <h1 class="pb-5 pt-3">Sobre mí</h1>
                     <p>Comence a incursionar dentro del mundo de la tecnologia. Actualmente me encuentro realizando el curso de Programador Full Stack.</p>
                     <div class="my-5">
-                        <a href="contacto.html" class="btn-rojo">Enviar mensaje</a>
+                        <a href="contacto.php" class="btn-rojo">Enviar mensaje</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-5 mx-auto text-center">
