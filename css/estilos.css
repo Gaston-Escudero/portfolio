@@ -2,11 +2,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-#contacto, #inicio {  /*alt+35=#*/
+#contacto, #inicio{  /*alt+35=#*/
     background-image: url(../images/fondo-contacto.png);
     background-size: cover;
-   
 }
+
 h1 {
     color: #E20000;
 }
@@ -354,7 +354,7 @@ div a:hover{
 
 
 @media (max-width: 750px) {
-    #contacto, #inicio {
+    #contacto, #inicio, #confirmacion_envio {
         background-image: url(../images/fondo-proyectos.png);
         background-size: contain;
         background-repeat: no-repeat;
